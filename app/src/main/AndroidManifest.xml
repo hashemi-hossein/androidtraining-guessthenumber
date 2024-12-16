@@ -23,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".screen.AboutUsScreen"
+            android:exported="false"
+            android:label="About Us"
+            android:theme="@style/Theme.AndroidTraining_GuessTheNumber" />
     </application>
 
 </manifest>
